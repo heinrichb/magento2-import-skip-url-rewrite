@@ -1,0 +1,17 @@
+{
+	"name": "heinrichb/skipurlrewrite",
+	"description": "A lightweight Magento 2 module that prevents URL rewrite generation during product imports.",
+	"type": "magento2-module",
+	"version": "1.0.0",
+	"license": [
+		"MIT"
+	],
+	"autoload": {
+		"files": [
+			"registration.php"
+		],
+		"psr-4": {
+			"heinrichb\\skipurlrewrite\\": ""
+		}
+	}
+}
